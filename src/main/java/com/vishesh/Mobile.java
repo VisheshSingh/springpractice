@@ -1,10 +1,15 @@
 package com.vishesh;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class Mobile {
 
 	public static void main(String[] args) {
 
-		Android phone = new Android();
+		ApplicationContext cxt = new ClassPathXmlApplicationContext("springcfg.xml");
+
+		Device phone = (Device) cxt.getBean("device");
 		System.out.println(phone.getOS());
 	}
 
