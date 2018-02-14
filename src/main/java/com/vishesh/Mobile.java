@@ -9,7 +9,7 @@ public class Mobile {
 
 		ApplicationContext cxt = new ClassPathXmlApplicationContext("springcfg.xml");
 
-		Device phone = (Device) cxt.getBean("device");
+		Device phone = (Device) cxt.getBean("android");
 		System.out.println(phone.getOS());
 	}
 

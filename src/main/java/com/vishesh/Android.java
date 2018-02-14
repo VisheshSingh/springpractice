@@ -1,5 +1,8 @@
 package com.vishesh;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Android implements Device {
 
 	public String getOS() {
