@@ -11,8 +11,8 @@
    <context:component-scan base-package="com.vishesh"></context:component-scan>
 <!-- 	<bean id="device" class="com.vishesh.Iphone"></bean> -->
 
-	<bean id="batterylife" class="com.vishesh.BatteryLife" >
-<!-- 		<property name="battery" value="4000mAh"></property> -->
-			<constructor-arg value="5000mAh"></constructor-arg>
-	</bean>
+<!-- 	<bean id="batterylife" class="com.vishesh.BatteryLife" > -->
+<!-- 			<property name="battery" value="4000mAh"></property> -->
+<!-- 			<constructor-arg value="5000mAh"></constructor-arg> -->
+<!-- 	</bean> -->
 </beans>

@@ -1,11 +1,10 @@
 package com.vishesh;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BatteryLife {
 	private String battery;
-
-	public BatteryLife(String battery) {
-		this.battery = battery;
-	}
 
 	public String getBattery() {
 		return battery;
@@ -17,7 +16,7 @@ public class BatteryLife {
 
 	@Override
 	public String toString() {
-		return "BatteryLife [battery=" + battery + "]";
+		return "Battery is working...";
 	}
 
 }

@@ -9,11 +9,11 @@ public class Mobile {
 
 		ApplicationContext cxt = new ClassPathXmlApplicationContext("springcfg.xml");
 
-		// Device phone = (Device) cxt.getBean("android");
-		// System.out.println(phone.getOS());
+		Android phone = (Android) cxt.getBean("android");
+		System.out.println(phone);
 
-		BatteryLife bl = (BatteryLife) cxt.getBean("batterylife");
-		System.out.println(bl);
+		// BatteryLife bl = (BatteryLife) cxt.getBean("batterylife");
+		// System.out.println(bl);
 	}
 
 }
